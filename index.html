@@ -1,19 +1,28 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Aromata Almacen Natural</title>
-    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="./styles/styles3.css">
 </head>
 <body>
     <header class="container">
         <nav class="navbar">
-            <div class="logo">
+            <div class="cart" id="cart-btn-1">
+                <button class="nav-btn">
+                    <img src="./images/carrito-de-compras.png">
+                </button>
+            </div>
+            <div class="nav-title">
                 <a href="#">
-                    <img src="./images/aromata-logo.png" alt="Aromata Almacen Natural">
+                    <img src="./images/aromata-logo.png" >
                 </a>
+            </div>
+            <div class="ham-menu">
+                <button class="nav-btn">
+                    <img src="./images/menu-hamburguesa.png" >
+                </button>
             </div>
             <div class="nav-links">
                 <ul>
@@ -23,53 +32,55 @@
             </div>
         </nav>
 
-        <div class="filters">
-            <div class="search">
-                <input type="search" name="search" placeholder="Buscar">
-            </div>
-            <div class="filter-dropdown">
-                <button>
-                    Filtrar
-                    <img src="./images/filtrar.png" alt="">
+        <div class="sub-header">
+            <button class="nav-filter nav-btn">
+                <p>Filtrar</p>
+                <img src="./images/angulo-pequeno-hacia-abajo.png" >
+            </button>
+
+            <input class="nav-search" type="search" name="search" placeholder="Busca tu producto">
+
+            <div class="cart" id="cart-btn-2">
+                <button class="nav-btn">
+                    <img src="./images/carrito-de-compras.png">
                 </button>
             </div>
         </div>
     </header>
 
-    <main>
-        <div class="product-container container">
+    <main class="container">
+        <section class="product-container">
             <div class="product">
                 <img src="./images/productos/mole-1.jpg">
-                <p class="nombre">Molé porotos negros</p>
-                <p class="precio">$1200</p>
-                <button class="añadir-btn">Añadir</button>
+                <p class="product-name">XXXX-XXXX-XXXX-XXXX</p>
+                <p class="product-price">$XXXX</p>
+                <button class="add-btn">Añadir</button>
             </div>
             <div class="product">
                 <img src="./images/productos/mole-2.jpg">
-                <p class="nombre">Molé lentejas</p>
-                <p class="precio">$800</p>
-                <button class="añadir-btn">Añadir</button>
+                <p class="product-name">XXXX-XXXX-XXXX-XXXX</p>
+                <p class="product-price">$XXXX</p>
+                <button class="add-btn">Añadir</button>
             </div>
             <div class="product">
                 <img src="./images/productos/mole-3.jpg">
-                <p class="nombre">Molé Arroz al curry</p>
-                <p class="precio">$1400</p>
-                <button class="añadir-btn">Añadir</button>
+                <p class="product-name">XXXX-XXXX-XXXX-XXXX</p>
+                <p class="product-price">$XXXX</p>
+                <button class="add-btn">Añadir</button>
             </div>
             <div class="product">
                 <img src="./images/productos/mole-4.jpg">
-                <p class="nombre">Molé croquetas de arroz</p>
-                <p class="precio">$900</p>
-                <button class="añadir-btn">Añadir</button>
+                <p class="product-name">XXXX-XXXX-XXXX-XXXX</p>
+                <p class="product-price">$XXXX</p>
+                <button class="add-btn">Añadir</button>
             </div>
             <div class="product">
                 <img src="./images/productos/mole-5.jpg">
-                <p class="nombre">Molé polenta</p>
-                <p class="precio">$1800</p>
-                <button class="añadir-btn">Añadir</button>
+                <p class="product-name">XXXX-XXXX-XXXX-XXXX</p>
+                <p class="product-price">$XXXX</p>
+                <button class="add-btn">Añadir</button>
             </div>
-        </div>
+        </section>       
     </main>
-
 </body>
 </html>
